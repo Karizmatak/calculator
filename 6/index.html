@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="calculatorBorder1"></div>
+  <div id="calculatorBorder2"></div>
+  <div id="calculatorCtn">
+    <input id="output" readonly>
+    <div id="buttons">
+    <button onclick="includeButton('1')">1</button>
+    <button onclick="includeButton('2')">2</button>
+    <button onclick="includeButton('3')">3</button>
+    <button onclick="includeButton('+')" id="blueClr">+</button>
+    <button onclick="includeButton('4')">4</button>
+    <button onclick="includeButton('5')">5</button>
+    <button onclick="includeButton('6')">6</button>
+    <button onclick="includeButton('-')" id="blueClr">-</button>
+    <button onclick="includeButton('7')">7</button>
+    <button onclick="includeButton('8')">8</button>
+    <button onclick="includeButton('9')">9</button>
+    <button onclick="includeButton('*')" id="blueClr">*</button>
+    <button onclick="includeButton('0')">0</button>
+    <button onclick="includeButton('.')">.</button>
+    <button onclick="clearBtn()" id="redClr">C</button>
+    <button onclick="includeButton('/')" id="blueClr">/</button>
+    <button onclick="calculate()" id="calculate">=</button>
+  </div>
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
